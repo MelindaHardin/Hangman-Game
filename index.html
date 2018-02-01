@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="main.js"></script>
+
+    <script src="assets/javascript/game.js"></script>
 </head>
 <body>
 
@@ -23,25 +24,36 @@
 
                 <div class="row">
                         <div class="col-md-12">
-                            <h3>Birthday Songs by... </h3>
+                            <h2>Birthday Songs by... </h2>
                         </div>
                 </div>
+                    <div id="main">
+                        <div class="row">
+                                <div class="col-md-6">
+                                    <img src="assets/images/Hangman.jpg" alt="Artist Name">
+                                </div>
 
-                    <div class="row">
-                            <div class="col-md-6">
-                                <img src="assets/images/Hangman.jpg" alt="Artist Name">
+                                <div class="col-md-6">
+                                    <h4 id= "gameStart">Press any key to start the game!</h4><br>
+
+                                    <h3>Wins: 0</h3> 
+                                    <h3>Losses: 0</h3>
+
+                                    <p id="guessedCorrect">
+                                        Guess an artist or band that has released a popular birthday song: 
+                                    </p>
+                                    
+                                    <p id="LettersGuessed">
+                                        Letters guessed:
+                                    </p>
+
+                                    <p id="remaining">
+                                        Number of guesses remaining:
+                                    </p>
+
+                                </div>
                             </div>
-
-                            <div class="col-md-6">
-                               Press any key to start the game!<br>
-
-                               Guess artist that has released a popular birthday song: <br>
-                            
-                               Number of guesses remaining:<br>
-
-                               Letters already guessed: <br>
-                            </div>
-                    </div>
+                        </div>       
 
 
 

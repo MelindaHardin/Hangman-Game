@@ -1,0 +1,17 @@
+body {
+    background-image: url("../images/happy-birthday.jpg"); /*artist image to pop up when answered correctly*/
+    background-size: cover;
+}
+
+h1, h2, h4 {
+    color: white;
+
+}
+h1, h2 {
+    text-align: center;
+}
+
+#main {
+    margin-top: 50px;
+    color: white;
+}
