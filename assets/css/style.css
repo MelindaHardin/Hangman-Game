@@ -1,5 +1,7 @@
 body {
-    background-image: url("../images/happy-birthday.jpg"); /*artist image to pop up when answered correctly*/
+    background-image: url("../images/dancparty.jpg"); /*artist image to pop up when answered correctly*/
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
